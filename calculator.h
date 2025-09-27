@@ -4,13 +4,11 @@
 class Calculator
 {
     public:
-<<<<<<< HEAD
         int Add (double, double);
         int Sub (double, double);
-=======
-        int Add (int, int);
         int Mul (double, double);
->>>>>>> e0ea21b (add a multiplication operation)
+	static int Divide(double a, double b);
+
 };
 
 #endif//CALCULATOR_H
